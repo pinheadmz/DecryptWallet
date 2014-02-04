@@ -24,3 +24,5 @@ Even though there are some clients that can import encrypted blockchain.info wal
 I recommend that everyone who has downloaded a backup of their wallet, ALSO download a decryption tool.
 
 Give my code a look! Feedback welcome :-)
+Matthew.Zipkin@gmail.com
+1BHkeAQYKXw9Lp4ewBZTyMpMnbiR63TtTH
