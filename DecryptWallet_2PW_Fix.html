@@ -73,7 +73,7 @@ function decrypt(data, password, success, error, backup_found_cb) {
             }
         }
 
-		//****** no point in repeating function infinitely if all test modes have been tried!
+	//****** no point in repeating function infinitely if all test modes have been tried!
         if (mi < modes.length){ 
         	++mi;
 	        setTimeout(test_mode, 2000);
@@ -182,8 +182,8 @@ function do_decrypt() {
 
 
 	<h1>Result</h1>
-	<!--//****** Added for clarity. the private key is NOT in wallet import format. 
-		//***** Bitaddress.org, for example, can not import this private key format at this time -->
+<!--	//****** Added for clarity. the private key is NOT in wallet import format. 
+	//***** Bitaddress.org, for example, can not import this private key format at this time -->
 	<i>Private keys displayed in raw base58 (not wallet import format)</i> 
 	<ul id="ul-keys"></ul>
 
